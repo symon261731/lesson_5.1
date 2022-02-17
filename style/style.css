@@ -1,0 +1,135 @@
+@import 'null.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+p{
+    font-family: "Merriweather" ;
+    font-weight: 400;
+}
+
+/* Нифига не понятно, но очень интересно */
+/* задаем родителю в котором есть картинке внешний отступ  "margin: 0 auto 0( не = 0 если нужен отступ от картинки) auto", и также ширину не больше чем ширина родителя. */
+.header{
+    max-width: 2200px;
+    margin: 0 auto 50px;
+}
+
+h1{
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 60px;
+    margin: 15px 15px 50px 15px;
+    
+}
+.cat{
+    margin: 0 0 0 15px;
+}
+
+
+.about{
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 50px;   
+    margin-left: 15px;
+    }
+
+    /* если задать внутренний отступ, то можно создат расстояние между строками
+не используя внешний отступ margin  */
+
+
+
+.br1,
+.br2,
+.br3{
+     padding-bottom: 16px;
+ }
+
+.girl{
+    min-width: 500px;
+    max-width: 1500px;
+    padding: 0 15px 50px 15px;
+} 
+ 
+
+ h2{
+     font-family: 'Comfortaa';
+     font-weight: 700;
+     font-size: 50px;
+     margin: 0 15px 35px 15px;
+     line-height: 1.7;
+ }
+.audio-text{
+    margin: 0 15px 35px 15px;
+}
+
+ li{
+     font-family: 'Rubik Mono One', sans-serif;
+     font-weight: 400;
+     font-size: 35px;
+     margin: 0 35px 40px 100px;
+     text-decoration:underline;
+}
+
+.common-listen{
+    max-width: 2200px;
+    margin: 0 auto 50px;
+}
+
+.first-point,
+.second-point,
+.third-point{
+    padding: 30px;
+}
+
+.two-women{
+ margin: 0 15px 40px 15px;
+}
+
+
+
+/* Подключаем шрифт через линк */
+.speaking-skills{
+   
+    font-family: "Roboto+Mono";
+    font-size: 30px;
+    font-weight: 500;
+    /*Оказывается padding тоже может сделать отступ слева не хуже чем margin, вопрос что лучше? */
+    padding: 15px 15px 15px 15px;
+    line-height: 1.4;
+    margin: 0 0 30px 0;
+}
+
+.fourth{
+    overflow: scroll;
+    font-size: 30px;
+    line-height: 1.4;
+    /*background-color: yellow; */
+    height: 300px;
+    margin-bottom: 40px;
+}
+.fifth{
+    height: 200px;
+    overflow: visible;
+    margin-bottom: 0;
+}
+
+.sixth{
+    margin-bottom: 80px;
+}
+.joke{ font-family: 'Rubik Mono One', sans-serif;
+font-size: 50px;
+color: red;}
+
+
